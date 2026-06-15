@@ -9,3 +9,14 @@ const animal = {
 
 console.log(animal.nome);
 console.log(animal.tutor);
+
+const camiseta = {
+    tamanho: 14, //number
+    tecido: "Algodão",
+    design: true,
+    cor: "vermelho",
+    marca: "maravila"
+};
+
+//console.log(camiseta);
+console.log(`A camiseta da ${camiseta.marca} é feita de ${camiseta.tecido},`);
